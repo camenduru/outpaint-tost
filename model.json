@@ -1,0 +1,8 @@
+{
+    "input_image": "https://files.catbox.moe/jmwknt.jpg",
+    "width": 720,
+    "height": 1280,
+    "overlap_width": 42,
+    "num_inference_steps": 8,
+    "prompt_input": " "
+}

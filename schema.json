@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "Diffusers Image Outpaint",
+      "author": "fffiloni, OzzyGT",
+      "code": "https://huggingface.co/spaces/fffiloni/diffusers-image-outpaint/tree/main",
+      "jupyter": "https://github.com/camenduru/diffusers-image-outpaint-jupyter",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/outpaint.ipynb",
+      "tags": [
+        "Image to Image"
+      ],
+      "widget": "readme"
+    },
+    "input_image": {
+        "type": "string",
+        "description": "Input Image URL",
+        "widget": "textarea"
+    },
+    "width": {
+      "type": "integer",
+      "description": "Width"
+    },
+    "height": {
+      "type": "integer",
+      "description": "Height"
+    },
+    "num_inference_steps": {
+      "type": "integer",
+      "description": "Inference Steps"
+    },
+    "prompt_input": {
+      "type": "string",
+      "description": "Prompt",
+      "widget": "textarea"
+    },
+    "overlap_width": {
+      "type": "integer",
+      "description": "Overlap Width"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/800x628/282828/eae0d0/?text=input#.png",
+      "image2": "https://files.catbox.moe/jmwknt.jpg",
+      "image3": "https://fakeimg.pl/800x628/282828/eae0d0/?text=output#.png",
+      "image4": "https://files.catbox.moe/oqij2v.png",
+      "widget": "example"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
