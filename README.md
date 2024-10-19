@@ -14,4 +14,4 @@ https://huggingface.co/spaces/fffiloni/diffusers-image-outpaint/tree/main <br />
 ![oqij2v](https://github.com/user-attachments/assets/6469a926-56a2-491f-9d09-c85465e4f027)
 
 ### 🏢 Sponsor
-https://runpod.io
+[https://runpod.io](https://runpod.io?ref=iqi9iy8y)
